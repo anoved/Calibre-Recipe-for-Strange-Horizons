@@ -26,20 +26,20 @@ Installation
 
 In Calibre, select _Add a custom news source_ from the _Fetch news_ toolbar button or menu. Click _Load recipe from file_ and select `strangehorizons.recipe`, downloaded from this repository:
 
-![Screenshot of Add a custom news source window](Screenshots/Calibre-Custom-Recipes.png)
+![Screenshot of Add a custom news source window](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/raw/master/Screenshots/Calibre-Custom-Recipes.png)
 
 Use
 ---
 
 Select _Schedule news download_ from _Fetch news_. Select the _Strange Horizons_ recipe, check _Schedule for download_, and indicate when you would like to new issues to be retrieved. Based on the Strange Horizons publication schedule, once a week on the weekend is recommended (see discussion under Limitations, above).
 
-![Screenshot of Schedule news download window](Screenshots/Calibre-Download-News.png)
+![Screenshot of Schedule news download window](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/raw/master/Screenshots/Calibre-Download-News.png)
 
 Alternatively, click _Download now_ to retrieve a copy immediately. Again, note that the retrieved issue may be incomplete depending on the day of the week.
 
 Note that Calibre may format the retrieved ebook differently depending on settings such as _Preferences > Interface > Behavior > Preferred Output Format_ and _Preferences > Conversion > Common Options > Page Setup > Output profile_. I use the `MOBI` and `Kindle` settings, respectively. As a result, the output ebook appears in navigable periodical format:
 
-![Kindle screenshot of sections and articles index](Screenshots/Sections-and-Articles.gif)
+![Kindle screenshot of sections and articles index](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/raw/master/Screenshots/Sections-and-Articles.gif)
 
 More example Kindle screenshots can be found in [screenshots](Screenshots/).
 
