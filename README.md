@@ -24,7 +24,7 @@ Formatting and some special characters are not preserved in the article summary 
 Installation
 ------------
 
-In Calibre, select _Add a custom news source_ from the _Fetch news_ toolbar button or menu. Click _Load recipe from file_ and select `strangehorizons.recipe`, downloaded from this repository:
+In Calibre, select _Add a custom news source_ from the _Fetch news_ toolbar button or menu. Click _Load recipe from file_ and select [`strangehorizons.recipe`](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/blob/master/strangehorizons.recipe), downloaded from this repository:
 
 ![Screenshot of Add a custom news source window](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/raw/master/Screenshots/Calibre-Custom-Recipes.png)
 
