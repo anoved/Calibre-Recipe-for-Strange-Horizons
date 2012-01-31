@@ -31,7 +31,7 @@ In Calibre, select _Add a custom news source_ from the _Fetch news_ toolbar butt
 Use
 ---
 
-Select _Schedule news download_ from _Fetch news_. Select the _Strange Horizons_ recipe, check _Schedule for download_, and indicate when you would like to new issues to be retrieved. Based on the Strange Horizons publication schedule, once a week on the weekend is recommended (see discussion under Limitations, above).
+Select _Schedule news download_ from _Fetch news_. Select the _Strange Horizons_ recipe, check _Schedule for download_, and indicate when you would like new issues to be retrieved. Based on the Strange Horizons publication schedule, once a week on the weekend is recommended (see discussion under Limitations, above).
 
 ![Screenshot of Schedule news download window](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/raw/master/Screenshots/Calibre-Download-News.png)
 
@@ -41,9 +41,9 @@ Note that Calibre may format the retrieved ebook differently depending on settin
 
 ![Kindle screenshot of sections and articles index](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/raw/master/Screenshots/Sections-and-Articles.gif)
 
-More example Kindle screenshots can be found in [screenshots](Screenshots/).
+More example Kindle screenshots can be found in [screenshots](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/tree/master/Screenshots).
 
 Customization
 -------------
 
-Recent back issues can be retrieved by changing the value of the `INDEX` variable from `http://www.strangehorizons.com/` to an issue archive page such as `http://www.strangehorizons.com/2012/20120123/`. Reviews are currently retrieved from the Recent Reviews page (http://www.strangehorizons.com/reviews/), so reviews will not be included for back issues older than a month or so. This limitation may be circumvented in the future by using full reviews archive (http://www.strangehorizons.com/reviews/archives.shtml) to look up reviews. (In either case, this recipe is reliant on a separate list of reviews because the issue indices unfortunately do not link directly to associated reviews.)
+Recent back issues can be retrieved by changing the value of the `INDEX` variable from [`http://www.strangehorizons.com/`](http://www.strangehorizons.com/) to an issue archive page such as [`http://www.strangehorizons.com/2012/20120123/`](http://www.strangehorizons.com/2012/20120123/). Reviews are currently retrieved from the Recent Reviews page (http://www.strangehorizons.com/reviews/), so reviews will not be included for back issues older than a month or so. This limitation may be circumvented in the future by using full reviews archive (http://www.strangehorizons.com/reviews/archives.shtml) to look up reviews. (In either case, this recipe is reliant on a separate list of reviews because the issue indices unfortunately do not link directly to associated reviews.)
