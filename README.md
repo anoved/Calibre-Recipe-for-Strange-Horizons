@@ -45,6 +45,8 @@ Note that Calibre may format the retrieved ebook differently depending on settin
 
 More example Kindle screenshots can be found in [screenshots](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/tree/master/Screenshots).
 
+Note that if you use Calibre to reconvert this recipe's output to a new `MOBI` file, the new file will not be formatted as a periodical, and you can therefore opt to manually file it in the Kindle collections of your choice.
+
 Customization
 -------------
 
