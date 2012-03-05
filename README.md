@@ -15,9 +15,11 @@ This recipe is intended for personal use only. It is not associated with Strange
 Installation and Setup
 ----------------------
 
-As of Calibre 0.8.38, this recipe is included with Calibre. No installation is necessary; just click _Fetch news_ and search for `Strange Horizons` in the _Schedule news download_ window. Check _Schedule for download_ and specify when new issues should be downloaded. I strongly suggest scheduling downloads for the weekend - otherwise, reviews published over the course of the week may not be included (see Limitations, discussed below).
+As of Calibre 0.8.38, this recipe is included with Calibre. No installation is necessary; just click _Fetch news_ and search for `Strange Horizons` in the _Schedule news download_ window. Check _Schedule for download_ and specify when new issues should be downloaded. I strongly suggest scheduling downloads for the weekend - otherwise, reviews published over the course of the week may not be included (see Limitations, discussed below). Click _Save_.
 
 ![Screenshot of News Schedule Setup](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/raw/master/Screenshots/Schedule-Setup.png)
+
+Alternatively, click _Download now_ (again, issue may be incomplete depending when you download it).
 
 Note that Calibre may format the retrieved ebook differently depending on settings such as _Preferences > Interface > Behavior > Preferred Output Format_ and _Preferences > Conversion > Common Options > Page Setup > Output profile_. I use the `MOBI` and `Kindle` settings, respectively. As a result, the output ebook appears in navigable periodical format:
 
@@ -30,7 +32,7 @@ Note that if you use Calibre to reconvert this recipe's output to a new `MOBI` f
 Manual Installation
 -------------------
 
-In Calibre, select _Add a custom news source_ from the _Fetch news_ menu. Click _Load recipe from file_ and select [`strangehorizons.recipe`](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/blob/master/strangehorizons.recipe), downloaded from this repository:
+This is only necessary if you need to use the recipe with an older version of Calibre. Select _Add a custom news source_ from the _Fetch news_ menu. Click _Load recipe from file_ and select [`strangehorizons.recipe`](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/blob/master/strangehorizons.recipe), downloaded from this repository:
 
 ![Screenshot of Add a custom news source window](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/raw/master/Screenshots/Calibre-Custom-Recipes.png)
 
@@ -47,3 +49,10 @@ This recipe retrieves the current issue of Strange Horizons. New issues are publ
 Changes to the layout of the Strange Horizons website or unusually formatted article titles or indices may not be compatible with this recipe.
 
 Formatting and some special characters are not preserved in the article summary text that appears in the ebook section previews.
+
+Links
+-----
+
+- This script was [acknowledged on the Strange Horizons blog](http://www.strangehorizons.com/blog/2012/03/strange_horizons_wc_27th_febru.shtml) on March 4, 2012.
+- [Follow me on Twitter.](http://twitter.com/anoved)
+- [Visit my web site.](http://anoved.net/)
