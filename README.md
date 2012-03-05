@@ -12,34 +12,12 @@ Disclaimer
 
 This recipe is intended for personal use only. It is not associated with Strange Horizons and is provided as a convenience for fellow fans of the magazine. Please do not distribute unauthorized ebooks of Strange Horizons.
 
-Limitations
------------
+Installation and Setup
+----------------------
 
-This recipe retrieves the current issue of Strange Horizons. New issues are published on Mondays. However, the reviews associated with each issue are published over the course of the week (typically on Monday, Wednesday, and Friday). Therefore, it is recommended to run the recipe on the weekend; otherwise, the generated ebook may be incomplete (unreleased reviews will not be included).
+As of Calibre 0.8.38, this recipe is included with Calibre. No installation is necessary; just click _Fetch news_ and search for `Strange Horizons` in the _Schedule news download_ window. Check _Schedule for download_ and specify when new issues should be downloaded. I strongly suggest scheduling downloads for the weekend - otherwise, reviews published over the course of the week may not be included (see Limitations, discussed below).
 
-Changes to the layout of the Strange Horizons website or unusually formatted article titles or indices may not be compatible with this recipe.
-
-Formatting and some special characters are not preserved in the article summary text that appears in the ebook section previews.
-
-Installation
-------------
-
-**Update:** As of Calibre 0.8.38, this recipe is included as a built-in recipe. No installation is needed; just search for `Strange Horizons` in the _Schedule news download_ window.
-
----
-
-In Calibre, select _Add a custom news source_ from the _Fetch news_ toolbar button or menu. Click _Load recipe from file_ and select [`strangehorizons.recipe`](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/blob/master/strangehorizons.recipe), downloaded from this repository:
-
-![Screenshot of Add a custom news source window](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/raw/master/Screenshots/Calibre-Custom-Recipes.png)
-
-Use
----
-
-Select _Schedule news download_ from _Fetch news_. Select the _Strange Horizons_ recipe, check _Schedule for download_, and indicate when you would like new issues to be retrieved. Based on the Strange Horizons publication schedule, once a week on the weekend is recommended (see discussion under Limitations, above).
-
-![Screenshot of Schedule news download window](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/raw/master/Screenshots/Calibre-Download-News.png)
-
-Alternatively, click _Download now_ to retrieve a copy immediately. Again, note that the retrieved issue may be incomplete depending on the day of the week.
+![Screenshot of News Schedule Setup](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/raw/master/Screenshots/Schedule-Setup.png)
 
 Note that Calibre may format the retrieved ebook differently depending on settings such as _Preferences > Interface > Behavior > Preferred Output Format_ and _Preferences > Conversion > Common Options > Page Setup > Output profile_. I use the `MOBI` and `Kindle` settings, respectively. As a result, the output ebook appears in navigable periodical format:
 
@@ -49,7 +27,23 @@ More example Kindle screenshots can be found in [screenshots](https://github.com
 
 Note that if you use Calibre to reconvert this recipe's output to a new `MOBI` file, the new file will not be formatted as a periodical, and you can therefore opt to manually file it in the Kindle collections of your choice.
 
+Manual Installation
+-------------------
+
+In Calibre, select _Add a custom news source_ from the _Fetch news_ menu. Click _Load recipe from file_ and select [`strangehorizons.recipe`](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/blob/master/strangehorizons.recipe), downloaded from this repository:
+
+![Screenshot of Add a custom news source window](https://github.com/anoved/Calibre-Recipe-for-Strange-Horizons/raw/master/Screenshots/Calibre-Custom-Recipes.png)
+
 Customization
 -------------
 
 Recent back issues can be retrieved by changing the value of the `INDEX` variable from [`http://www.strangehorizons.com/`](http://www.strangehorizons.com/) to an issue archive page such as [`http://www.strangehorizons.com/2012/20120123/`](http://www.strangehorizons.com/2012/20120123/). Reviews are currently retrieved from the [Recent Reviews page](http://www.strangehorizons.com/reviews/), so reviews will not be included for back issues older than a month or so. This limitation may be circumvented in the future by using the [full reviews archive](http://www.strangehorizons.com/reviews/archives.shtml) to look up reviews. (In either case, this recipe is reliant on a separate list of reviews because the issue indices unfortunately do not link directly to associated reviews.)
+
+Limitations
+-----------
+
+This recipe retrieves the current issue of Strange Horizons. New issues are published on Mondays. However, the reviews associated with each issue are published over the course of the week (typically on Monday, Wednesday, and Friday). Therefore, it is recommended to run the recipe on the weekend; otherwise, the generated ebook may be incomplete (unreleased reviews will not be included).
+
+Changes to the layout of the Strange Horizons website or unusually formatted article titles or indices may not be compatible with this recipe.
+
+Formatting and some special characters are not preserved in the article summary text that appears in the ebook section previews.
